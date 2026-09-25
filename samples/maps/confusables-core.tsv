@@ -1,0 +1,45 @@
+# 混淆映射表：可疑码位 -> 它看起来像的字符。TSV，四列，UTF-8、LF。
+# 列：可疑码位	目标码位	规则 ID	说明
+# 空行与 # 开头的行跳过；同一可疑码位只能出现一次。
+U+0430	U+0061	homoglyph.cyrillic	西里尔字母 а 像拉丁 a
+U+0432	U+0062	homoglyph.cyrillic	西里尔字母 в 像拉丁 b
+U+0435	U+0065	homoglyph.cyrillic	西里尔字母 е 像拉丁 e
+U+043A	U+006B	homoglyph.cyrillic	西里尔字母 к 像拉丁 k
+U+043C	U+006D	homoglyph.cyrillic	西里尔字母 м 像拉丁 m
+U+043D	U+0068	homoglyph.cyrillic	西里尔字母 н 像拉丁 h
+U+043E	U+006F	homoglyph.cyrillic	西里尔字母 о 像拉丁 o
+U+0440	U+0070	homoglyph.cyrillic	西里尔字母 р 像拉丁 p
+U+0441	U+0063	homoglyph.cyrillic	西里尔字母 с 像拉丁 c
+U+0442	U+0074	homoglyph.cyrillic	西里尔字母 т 像拉丁 t
+U+0443	U+0079	homoglyph.cyrillic	西里尔字母 у 像拉丁 y
+U+0445	U+0078	homoglyph.cyrillic	西里尔字母 х 像拉丁 x
+U+0455	U+0073	homoglyph.cyrillic	西里尔字母 ѕ 像拉丁 s
+U+0456	U+0069	homoglyph.cyrillic	西里尔字母 і 像拉丁 i
+U+0458	U+006A	homoglyph.cyrillic	西里尔字母 ј 像拉丁 j
+U+04BB	U+0068	homoglyph.cyrillic	西里尔字母 һ 像拉丁 h
+U+04CF	U+006C	homoglyph.cyrillic	西里尔字母 ӏ 像拉丁 l
+U+03B1	U+0061	homoglyph.greek	希腊字母 α 像拉丁 a
+U+03B3	U+0079	homoglyph.greek	希腊字母 γ 像拉丁 y
+U+03B5	U+0065	homoglyph.greek	希腊字母 ε 像拉丁 e
+U+03B7	U+006E	homoglyph.greek	希腊字母 η 像拉丁 n
+U+03B9	U+0069	homoglyph.greek	希腊字母 ι 像拉丁 i
+U+03BA	U+006B	homoglyph.greek	希腊字母 κ 像拉丁 k
+U+03BC	U+0075	homoglyph.greek	希腊字母 μ 像拉丁 u
+U+03BD	U+0076	homoglyph.greek	希腊字母 ν 像拉丁 v
+U+03BF	U+006F	homoglyph.greek	希腊字母 ο 像拉丁 o
+U+03C1	U+0070	homoglyph.greek	希腊字母 ρ 像拉丁 p
+U+03C4	U+0074	homoglyph.greek	希腊字母 τ 像拉丁 t
+U+03C5	U+0075	homoglyph.greek	希腊字母 υ 像拉丁 u
+U+03C7	U+0078	homoglyph.greek	希腊字母 χ 像拉丁 x
+U+03C9	U+0077	homoglyph.greek	希腊字母 ω 像拉丁 w
+U+0261	U+0067	homoglyph.latin-ext	IPA ɡ 像拉丁 g
+U+0269	U+0069	homoglyph.latin-ext	IPA ɩ 像拉丁 i
+U+0274	U+006E	homoglyph.latin-ext	小写大字母 ɴ 像拉丁 n
+U+0280	U+0072	homoglyph.latin-ext	小写大字母 ʀ 像拉丁 r
+U+028F	U+0079	homoglyph.latin-ext	小写大字母 ʏ 像拉丁 y
+U+029F	U+006C	homoglyph.latin-ext	小写大字母 ʟ 像拉丁 l
+U+2010	U+002D	homoglyph.punct	连字符 U+2010 像 ASCII 减号
+U+2212	U+002D	homoglyph.punct	数学减号 − 像 ASCII 减号
+U+0660	U+0030	homoglyph.arabic-indic	阿拉伯-印度数字 ٠ 像 0
+U+0661	U+0031	homoglyph.arabic-indic	阿拉伯-印度数字 ١ 像 1
+U+0665	U+0035	homoglyph.arabic-indic	阿拉伯-印度数字 ٥ 像 5

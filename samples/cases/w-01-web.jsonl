@@ -1,0 +1,16 @@
+{"id":"w-01-00001","kind":"screen","name":"pаypal-support"}
+{"id":"w-01-00002","kind":"screen","name":"раураl"}
+{"id":"w-01-00003","kind":"screen","name":"support\u200B"}
+{"id":"w-01-00004","kind":"screen","name":"PayPal-Support"}
+{"id":"w-01-00005","kind":"screen","name":"ｓｕｐｐｏｒｔ"}
+{"id":"w-01-00006","kind":"screen","name":"привет"}
+{"id":"w-01-00007","kind":"screen","name":"admin"}
+{"id":"w-01-00008","kind":"compare","left":"paypal","right":"pаypal"}
+{"id":"w-01-00009","kind":"compare","left":"раураl","right":"paypal"}
+{"id":"w-01-00010","kind":"compare","left":"café","right":"café"}
+{"id":"w-01-00011","kind":"compare","left":"pay\u200Bpal","right":"paypal"}
+{"id":"w-01-00012","kind":"compare","left":"PAYPAL","right":"paypal"}
+{"id":"w-01-00013","kind":"compare","left":"paypal","right":"netflix"}
+{"id":"w-01-00014","kind":"compare","left":"mhz","right":"㎒"}
+{"id":"w-01-00015","kind":"normalize","text":"㎒"}
+{"id":"w-01-00016","kind":"normalize","text":"café"}
